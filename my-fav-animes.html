@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Animes</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1e1e1e;
+            color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        main {
+            padding: 20px;
+        }
+        .anime-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .anime-list li {
+            background-color: #333;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .anime-list h3 {
+            margin: 0 0 10px 0;
+        }
+        .anime-list p {
+            margin: 10px 0;
+        }
+        .anime-list a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .anime-list a:hover {
+            text-decoration: underline;
+        }
+        .anime-list img {
+            max-width: 100px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .anime-list iframe {
+            margin-left: 20px;
+            border: none;
+            border-radius: 8px;
+        }
+        .anime-description {
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Favorite Animes</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="anime-recommendations.html">Anime Recommendations</a>
+        <a href="manga-recommendations.html">Manga Recommendations</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <ul class="anime-list">
+                <li>
+                    <img src="https://linktoimage.com/kuroko-no-basket.jpg" alt="Kuroko no Basket">
+                    <div class="anime-description">
+                        <h3>1. Kuroko no Basket</h3>
+                        <p>Watch on: <a href="https://www.crunchyroll.com/kurokos-basketball" target="_blank">Crunchyroll</a>, <a href="https://www.netflix.com/title/70278939" target="_blank">Netflix</a></p>
+                        <p>Kuroko Tetsuya, the phantom sixth man, teams up with Kagami Taiga to take on the Generation of Miracles and become the best in Japanese high school basketball.</p>
+                    </div>
+                    <iframe width="200" height="113" src="https://www.youtube.com/embed/_-y2_Pn6p40" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <img src="https://linktoimage.com/jojos-bizarre-adventure.jpg" alt="JoJo's Bizarre Adventure">
+                    <div class="anime-description">
+                        <h3>2. JoJo's Bizarre Adventure</h3>
+                        <p>Watch on: <a href="https://www.crunchyroll.com/jojos-bizarre-adventure" target="_blank">Crunchyroll</a>, <a href="https://www.netflix.com/title/80179832" target="_blank">Netflix</a></p>
+                        <p>The Joestar family, across multiple generations, fights against supernatural foes using their unique abilities and stands in this epic saga.</p>
+                    </div>
+                    <iframe width="200" height="113" src="https://www.youtube.com/embed/-5S5P8I7u44" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <img src="https://linktoimage.com/demon-slayer.jpg" alt="Demon Slayer">
+                    <div class="anime-description">
+                        <h3>3. Demon Slayer: Kimetsu no Yaiba</h3>
+                        <p>Watch on: <a href="https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba" target="_blank">Crunchyroll</a>, <a href="https://www.netflix.com/title/81091393" target="_blank">Netflix</a></p>
+                        <p>Tanjiro Kamado, a kind-hearted boy, joins the Demon Slayer Corps to avenge his family and cure his sister Nezuko, who was turned into a demon.</p>
+                    </div>
+                    <iframe width="200" height="113" src="https://www.youtube.com/embed/VQGCKyvzIM4" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <img src="https://linktoimage.com/attack-on-titan.jpg" alt="Attack on Titan">
+                    <div class="anime-description">
+                        <h3>4. Attack on Titan</h3>
+                        <p>Watch on: <a href="https://www.crunchyroll.com/attack-on-titan" target="_blank">Crunchyroll</a>, <a href="https://www.netflix.com/title/80014382" target="_blank">Netflix</a></p>
+                        <p>In a world where humanity is on the brink of extinction, Eren Yeager and his friends join the fight against the terrifying Titans, who threaten their existence.</p>
+                    </div>
+                    <iframe width="200" height="113" src="https://www.youtube.com/embed/MGRm4IzK1SQ" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <img src="https://linktoimage.com/seven-deadly-sins.jpg" alt="The Seven Deadly Sins">
+                    <div class="anime-description">
+                        <h3>5. The Seven Deadly Sins</h3>
+                        <p>Watch on: <a href="https://www.netflix.com/title/80050063" target="_blank">Netflix</a></p>
+                        <p>Elizabeth, the princess of Liones, searches for the Seven Deadly Sins, a group of knights, to help reclaim her kingdom from the Holy Knights.</p>
+                    </div>
+                    <iframe width="200" height="113" src="https://www.youtube.com/embed/wxcvbL6o55A" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <img src="https://linktoimage.com/black-clover.jpg" alt="Black Clover">
+                    <div class="anime-description">
+                        <h3>6. Black Clover</h3>
+                        <p>Watch on: <a href="https://www.crunchyroll.com/black-clover" target="_blank">Crunchyroll</a>, <a href="https://www.funimation.com/shows/black-clover" target="_blank">Funimation</a></p>
+                        <p>Asta, a boy born without magic in a world where magic is everything, aims to become the Wizard King with the help of his friends and his anti-magic sword.</p>
+                    </div>
+                    <iframe width="200" height="113" src="https://www.youtube.com/embed/P0ki6HFGi10" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <img src="https://linktoimage.com/hunter-x-hunter.jpg" alt="Hunter x Hunter">
+                    <div class="anime-description">
+                        <h3>7. Hunter x Hunter</h3>
+                        <p>Watch on: <a href="https://www.crunchyroll.com/hunter-x-hunter" target="_blank">Crunchyroll</a>, <a href="https://www.netflix.com/title/70300472" target="_blank">Netflix</a></p>
+                        <p>Gon Freecss, a young boy with incredible potential, sets out to become a Hunter and find his father, meeting friends and overcoming challenges along the way.</p>
+                    </div>
+                    <iframe width="200" height="113" src="https://www.youtube.com/embed/d6kBeJjTGnY" allowfullscreen></iframe>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 OtakuHaven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
