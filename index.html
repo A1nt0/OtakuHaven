@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otaku Haven - Your Ultimate Anime Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1e1e1e;
+            color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image: url('https://example.com/header-background.jpg');
+            /* Add a suitable background image URL */
+            background-size: cover;
+            color: white;
+            padding: 20px 0;
+            /* Reduced padding */
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            /* Smaller font size */
+        }
+
+        header p {
+            font-size: 0.9em;
+            /* Smaller font size for subtitle */
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background-color: #333;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        section h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .btn-donate {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-donate:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+        <header>
+            <h1>{{ title }}</h1>
+            <p>{{ subtitle }}</p>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="manga-recommendations.html">Manga Recommendations</a>
+            <a href="anime-recommendations.html">Anime Recommendations</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="my-fav-animes.html">My Fav Animes</a>
+            <a href="contact.html">Contact</a>
+            <a href="donate.html">Donate</a>
+        </nav>
+
+        <main>
+            <section>
+                <h2>{{ aboutTitle }}</h2>
+                <p>{{ aboutContent }}</p>
+            </section>
+
+            <section>
+                <h2>{{ communityTitle }}</h2>
+                <p>{{ communityContent }}</p>
+            </section>
+
+            <section>
+                <h2>{{ exploreTitle }}</h2>
+                <p>{{ exploreContent }}</p>
+            </section>
+
+            <section>
+                <h2>{{ latestNewsTitle }}</h2>
+                <p>{{ latestNewsContent }}</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Otaku Haven. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                title: 'Welcome to Otaku Haven',
+                subtitle: 'Your Ultimate Guide to the World of Anime and Manga',
+                aboutTitle: 'About Otaku Haven',
+                aboutContent: 'We are Otaku Haven, your ultimate guide for new anime fans and manga enthusiasts. Explore reviews, recommendations, and the latest news in the world of anime and manga. Whether you\'re just starting your journey into the anime universe or looking for the next great series to binge-watch, we\'ve got you covered.',
+                communityTitle: 'Join Our Community',
+                communityContent: 'At Otaku Haven, we believe in building a vibrant community of anime and manga fans. Join us to share your thoughts, discover new content, and connect with fellow enthusiasts. Together, we celebrate the rich and diverse world of anime and manga.',
+                exploreTitle: 'Explore New Horizons',
+                exploreContent: 'Dive into our curated lists of anime and manga across various genres and discover hidden gems that might have flown under your radar. Our recommendations are tailored to help you find your next favorite series.',
+                latestNewsTitle: 'Latest News and Updates',
+                latestNewsContent: 'Stay up-to-date with the latest news in the anime and manga world. From new series announcements to industry insights, we bring you all the updates you need to stay informed and engaged with the community.'
+            }
+        });
+    </script>
+
+</body>
+
+</html>
